@@ -1,9 +1,12 @@
 Architecture: iphoneos-arm
-Depends: firmware (>= 10.3.3), rsync
+Depends: firmware (>= 10.3.0), rsync, cy+cpu.arm64
 Author: MidnightChips
 Description: iOS Time Machine
 Maintainer: MidnightChips
 Name: SnapBack
 Package: me.midnightchips.snapback
-Section: Application
-Version: 1.0
+Section: Utilities
+Version: 2.0.1
+Icon: https://midnightchips.me/packages/SnapBack/SileoIcon.png
+SileoDepiction: https://midnightchips.me/sileo/snapback.json
+Depiction: https://midnightchips.me/depiction/?snapback
